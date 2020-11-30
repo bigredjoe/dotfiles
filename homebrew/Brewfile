@@ -1,1 +1,128 @@
-brew 'gcc'
+tap "dtjm/taps"
+tap "dteoh/devdocs"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap 'homebrew/cask-drivers'
+tap "homebrew/core"
+tap "watr/formulae"
+tap 'azure/functions'
+tap 'heroku/brew'
+brew "brew-pip"
+brew "gcc"
+brew "mitmproxy"
+brew "devd"
+brew "ffmpeg"
+brew "ghostscript"
+brew "wakeonlan"
+brew "tldr"
+brew "git"
+brew "httpie"
+brew "bat"
+brew "jo"
+brew "jq"
+brew "lame"
+brew "macvim"
+brew "mas"
+brew "neovim"
+brew "node"
+brew "openssl"
+brew "openvpn"
+brew "p7zip"
+brew "pandoc"
+brew "portaudio"
+brew "python"
+brew "fzf"
+brew "youtube-dl"
+cask_args appdir: '/Applications'
+cask "spotify"
+cask "beyond-compare"
+cask "noxappplayer"
+cask "cakebrew"
+cask "licecap"
+cask "dash"
+cask "muzzle"
+cask "touch-bar-simulator"
+cask "ui-browser"
+cask "enjoyable"
+cask "fman"
+cask "contexts"
+cask "upic"
+cask "station"
+cask "reflector"
+cask "alacritty"
+cask "bettertouchtool"
+cask "easyfind"
+cask "selfcontrol"
+cask "bitbar"
+cask "airfoil"
+cask "launchcontrol"
+cask "dozer"
+cask "vivaldi"
+cask "deckset"
+cask "iterm2"
+cask "ngrok"
+cask 'alfred'
+cask 'anki'
+cask 'docker'
+cask 'displaylink'
+cask 'dotnet-sdk'
+cask 'dropbox'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'postman'
+cask 'visual-studio-code'
+cask 'lastpass'
+cask 'thingsmacsandboxhelper'
+cask 'github'
+cask 'keyboard-maestro'
+cask 'script-debugger'
+cask 'vlc'
+cask 'sublime-text'
+cask 'imageoptim'
+cask 'microsoft-office'
+cask 'qlvideo'
+cask 'appcleaner'
+cask 'scroll-reverser'
+cask 'runjs'
+cask 'karabiner-elements'
+cask 'clean-me'
+mas "1Blocker", id: 1107421413
+mas "1Keyboard", id: 766939888
+mas "Joystick Mapper", id: 528183797  
+mas "Accordance", id: 1173660007
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Base", id: 402383384
+mas "Boop", id: 1518425043
+mas "Pasteboard Viewer", id: 1499215709
+mas "DaisyDisk", id: 411643860
+mas "Day One", id: 1055511498
+mas "Drafts", id: 1435957248
+mas "Due", id: 524373870
+mas "Up Next", id: 1355117041 
+mas "Entangler", id: 680030301
+mas "Growl", id: 467939042
+mas "JSON Helper", id: 453114608
+mas "Jump Desktop", id: 524141863
+mas "LanScan Pro", id: 562184107
+mas "Location Helper", id: 488536386
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "MindNode", id: 1289197285
+mas "Notability", id: 736189492
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "PiPifier", id: 1160374471
+mas "Soulver", id: 413965349
+mas "TermHere", id: 1114363220
+mas "The Unarchiver", id: 425424353
+mas "1440 Minutes Left Today", id: 1483764819
+mas "Theine", id: 955848755
+mas "Things", id: 904280696
+mas "Toothpicks", id: 998361254
+mas "Transmit", id: 403388562
+mas "Xcode", id: 497799835
+mas "RegExRX", id: 498370702
+mas "Up Next", id: 1355117041
+mas "Shareful", id: 1522267256
+mas "Streaks", id: 1274680634
+mas "LookUp", id: 1476163639
