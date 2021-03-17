@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "watr/formulae"
 tap 'azure/functions'
 tap 'heroku/brew'
+tap 'federico-terzi/espanso'
 brew "brew-pip"
 brew "gcc"
 brew "mitmproxy"
@@ -21,6 +22,7 @@ brew "bat"
 brew "jo"
 brew "jq"
 brew "lame"
+brew "espanso"
 brew "macvim"
 brew "mas"
 brew "neovim"
@@ -74,6 +76,7 @@ cask 'dropbox'
 cask 'iterm2'
 cask 'postman'
 cask 'visual-studio-code'
+cask 'coderunner'
 cask 'lastpass'
 cask 'thingsmacsandboxhelper'
 cask 'github'
