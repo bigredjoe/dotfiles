@@ -40,6 +40,7 @@ cask_args appdir: '/Applications'
 cask "spotify"
 cask "azure-data-studio"
 cask "devdocs"
+cask "agenda"
 cask "barrier"
 cask "proxyman"
 cask "react-native-debugger"
