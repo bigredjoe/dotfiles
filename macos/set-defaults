@@ -103,6 +103,10 @@ set_macos_preferences() {
         success "Disabled the warning when changing a file extension"
         defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
+        success "Set Finder to show hidden files"
+        defaults write com.apple.Finder AppleShowAllFiles true
+        killall Finder
+
         success "Set Finder to use column view everywhere"
         defaults write com.apple.finder FXPreferredViewStyle Clmv
 
