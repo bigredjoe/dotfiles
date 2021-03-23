@@ -8,6 +8,10 @@ function install_software () {
         then
             dotnet tool install --global dotnet-ef
         fi
+        if test ! $(dotnet-format)
+        then
+            dotnet tool update -g dotnet-format
+        fi
         # Trusting dotnet dev cert
         if test $(dotnet dev-certs https)
         then
