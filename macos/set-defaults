@@ -118,6 +118,9 @@ set_macos_preferences() {
 
         success "Preventing Photos from opening every time a device is plugged in"
         defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+        
+        success "Vim Vscode Press and Hold"
+        defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
         user "Enable tap-to-click? (y/n)"
         read -s -n 1 response
