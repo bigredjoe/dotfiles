@@ -11,6 +11,7 @@ tap 'heroku/brew'
 tap 'federico-terzi/espanso'
 brew "brew-pip"
 brew "gcc"
+brew "raycast"
 brew "mitmproxy"
 brew "devd"
 brew "ffmpeg"
