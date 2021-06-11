@@ -79,9 +79,6 @@ set_macos_preferences() {
         success "Set to reveal IP address, hostname, OS version, etc. when clicking the clock in the login window"
         sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostsuccess HostName
 
-        success "Set to 24-hour clock"
-        defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d  H:mm:ss'
-
         success "Set the computer to restart automatically on freeze"
         sudo systemsetup -setrestartfreeze on
 
