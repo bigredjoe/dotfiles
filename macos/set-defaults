@@ -88,6 +88,9 @@ set_macos_preferences() {
         success "Disabled smart dashes (annoying when writing code)"
         defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
+        success "Set to 12-hour clock"
+        defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d  h:mm:ss a'
+
         success "Set software updates to check daily instead of just once per week"
         defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
