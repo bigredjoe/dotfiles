@@ -105,6 +105,7 @@ cask 'clean-me'
 cask 'synergy'
 mas "1Blocker", id: 1107421413
 mas "DevUtils.app", id: 1533756032 
+mas "NextDNS", id: 1464122853 
 mas "1Keyboard", id: 766939888
 mas "Scenecuts", id: 1540491573
 mas "Scenecuts", id: 1540491573
